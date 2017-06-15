@@ -1,5 +1,12 @@
 import webbrowser
 class Movie():
+  '''
+  This class is movie class where you define your favourite moive with
+    title
+    stoty line
+    poster image url
+    trailer youtube url
+  '''
   def __init__(self, movie_title, moive_storyline, poster_image_url, trailer_url):
     self.title = movie_title
     self.storyline = moive_storyline
